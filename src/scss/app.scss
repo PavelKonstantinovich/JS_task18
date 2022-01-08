@@ -1,0 +1,43 @@
+body {
+  background-color: #117A65;
+
+  .container {
+
+    .submit {
+     margin: 800px 0 0 1000px;
+     position: fixed
+    }
+
+    .stick {
+     position: absolute;
+     width: 300px;
+     height: 300px;
+     padding: 15px;
+     box-shadow: 0 0 3px rgba(128, 128, 128, 0.2);
+    }
+
+    .stick__content {
+     display: block;
+     overflow-wrap: break-word;
+    }
+
+    .stick__edit .stick__content {
+     display: none;
+    }
+
+    .stick__form {
+     display: none;
+     margin-top: 10px;
+
+      textarea {
+       width: 100%;
+       background: none;
+       height: 200px;
+      }
+    }
+
+    .stick__edit .stick__form {
+     display: block;
+    }
+  }
+}
